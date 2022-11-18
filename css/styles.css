@@ -1,0 +1,115 @@
+:root {
+    --brand-color-text: #212121;
+    --brand-color-hero: #FFFFFF;
+    --brand-color-backgraund: #2F303A;
+    --brand-color-link: #2196F3;
+    --brand-color-logo: #2196F3;
+    --brand-color-logo-two: #000000;
+    --brand-color-description: #757575;
+}
+body {
+    
+    font-family: 'Roboto', sans-serif;
+    color: var(--brand-color-text);
+    font-family: 'Raleway', sans-serif;
+}
+.title-feat {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--brand-color-text);
+}
+.text-feat {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.7;
+    letter-spacing: 0.03em;
+    color: var(--brand-color-description);
+}
+.title-busi {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    color: var(--brand-color-text);
+}
+.titles {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;    
+    letter-spacing: 0.03em;
+    color: var(--brand-color-text);
+}
+.desc {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.19;    
+    letter-spacing: 0.03em;
+    color: var(--brand-color-description);
+
+}
+.titles-portf {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    color: var(--brand-color-text);
+}
+.desc-portf {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.9;
+    letter-spacing: 0.03em;
+    color: var(--brand-color-description);
+}
+.link-logo {
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.2;
+    letter-spacing: 0.03em;
+    color: var(--brand-color-logo);
+
+}
+.link-logo-two {
+    color: var(--brand-color-logo-two);
+}
+.link {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: var(--brand-color-text); 
+}
+.link:hover {
+    color: var(--brand-color-link);
+}
+.link:focus {
+    color: var(--brand-color-link);
+}
+.section {
+    background-color: var(--brand-color-backgraund);
+}
+.section-title {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--brand-color-hero);
+
+}
+button {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.6;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--brand-color-text);
+    cursor: pointer;
+}
+.address-style {
+    font-style: normal;
+}
