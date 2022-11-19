@@ -6,15 +6,16 @@
     --brand-color-logo: #2196F3;
     --brand-color-logo-two: #000000;
     --brand-color-description: #757575;
+    --brand-color-button: #2196F3;
 }
 body {
     
     font-family: 'Roboto', sans-serif;
     color: var(--brand-color-text);
-    font-family: 'Raleway', sans-serif;
+    
 }
 .title-feat {
-    font-weight: 700;
+    
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.03em;
@@ -22,14 +23,14 @@ body {
     color: var(--brand-color-text);
 }
 .text-feat {
-    font-weight: 400;
+    
     font-size: 14px;
     line-height: 1.7;
     letter-spacing: 0.03em;
     color: var(--brand-color-description);
 }
 .title-busi {
-    font-weight: 700;
+    
     font-size: 36px;
     line-height: 1.17;
     letter-spacing: 0.03em;
@@ -43,7 +44,7 @@ body {
     color: var(--brand-color-text);
 }
 .desc {
-    font-weight: 400;
+    
     font-size: 16px;
     line-height: 1.19;    
     letter-spacing: 0.03em;
@@ -51,37 +52,44 @@ body {
 
 }
 .titles-portf {
-    font-weight: 700;
+    
     font-size: 18px;
     line-height: 2;
     letter-spacing: 0.06em;
     color: var(--brand-color-text);
 }
 .desc-portf {
-    font-weight: 400;
+    
     font-size: 16px;
     line-height: 1.9;
     letter-spacing: 0.03em;
     color: var(--brand-color-description);
 }
 .link-logo {
-    font-weight: 700;
+    font-family: 'Raleway', sans-serif;
     font-size: 26px;
     line-height: 1.2;
     letter-spacing: 0.03em;
     color: var(--brand-color-logo);
-
+    text-decoration: none;
 }
 .link-logo-two {
+    font-family: 'Raleway', sans-serif;
     color: var(--brand-color-logo-two);
+    text-decoration: none;
+}
+.link-style {
+    list-style: none;
 }
 .link {
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
-    color: var(--brand-color-text); 
+    text-decoration: none;
+    color: var(--brand-color-text);  
 }
+
 .link:hover {
     color: var(--brand-color-link);
 }
@@ -102,6 +110,19 @@ body {
 
 }
 button {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.9;
+    text-align: center;
+    letter-spacing: 0.06em;
+    color: var(--brand-color-hero);
+    background: var(--brand-color-button);
+    cursor: pointer;
+}
+.button-style {
+    font-family: 'Roboto';
     font-weight: 500;
     font-size: 16px;
     line-height: 1.6;
