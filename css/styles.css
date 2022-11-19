@@ -109,7 +109,7 @@ body {
     color: var(--brand-color-hero);
 
 }
-button {
+.button-zero {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 700;
@@ -121,7 +121,47 @@ button {
     background: var(--brand-color-button);
     cursor: pointer;
 }
-.button-style {
+.button-one {
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.6;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--brand-color-text);
+    cursor: pointer;
+}
+.button-two {
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.6;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--brand-color-text);
+    cursor: pointer;
+}
+.button-three {
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.6;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--brand-color-text);
+    cursor: pointer;
+}
+.button-four {
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.6;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--brand-color-text);
+    cursor: pointer;
+}
+.button-five {
     font-family: 'Roboto';
     font-weight: 500;
     font-size: 16px;
