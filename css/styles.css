@@ -7,6 +7,7 @@
     --brand-color-logo-two: #000000;
     --brand-color-description: #757575;
     --brand-color-button: #2196F3;
+    --brand-color-contacts: rgba(255, 255, 255, 0.6);
 }
 body {
     
@@ -44,7 +45,7 @@ body {
     color: var(--brand-color-text);
 }
 .desc {
-    
+    font-weight: 400;
     font-size: 16px;
     line-height: 1.19;    
     letter-spacing: 0.03em;
@@ -52,14 +53,14 @@ body {
 
 }
 .titles-portf {
-    
+    font-weight: 700;
     font-size: 18px;
     line-height: 2;
     letter-spacing: 0.06em;
     color: var(--brand-color-text);
 }
 .desc-portf {
-    
+    font-weight: 400;
     font-size: 16px;
     line-height: 1.9;
     letter-spacing: 0.03em;
@@ -78,6 +79,9 @@ body {
     color: var(--brand-color-logo-two);
     text-decoration: none;
 }
+.link-logo-three {
+    color: var(--brand-color-hero);
+}
 .link-style {
     list-style: none;
 }
@@ -89,7 +93,48 @@ body {
     text-decoration: none;
     color: var(--brand-color-text);  
 }
-
+.link-cont {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    text-decoration: none;
+    color: var(--brand-color-description);
+}
+.link-cont:hover {
+    color: var(--brand-color-link);
+}
+.link-cont:focus {
+    color: var(--brand-color-link); 
+}
+.link-add {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    text-decoration: none;
+    color: var(--brand-color-hero);
+}
+.link-add:hover {
+    color: var(--brand-color-link);
+}
+.link-add:focus {
+    color: var(--brand-color-link);
+} 
+.link-cont-two {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    text-decoration: none;
+    color: var(--brand-color-contacts);
+}
+.link-cont-two:hover {
+    color: var(--brand-color-link);
+}
+.link-cont-two:focus {
+    color: var(--brand-color-link); 
+}
 .link:hover {
     color: var(--brand-color-link);
 }
@@ -107,7 +152,6 @@ body {
     letter-spacing: 0.06em;
     text-transform: uppercase;
     color: var(--brand-color-hero);
-
 }
 .button-zero {
     font-family: 'Roboto';
@@ -170,6 +214,9 @@ body {
     letter-spacing: 0.03em;
     color: var(--brand-color-text);
     cursor: pointer;
+}
+.bgd {
+    background: var(--brand-color-backgraund);
 }
 .address-style {
     font-style: normal;
